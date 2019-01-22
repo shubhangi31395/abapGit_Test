@@ -42,7 +42,8 @@ CONSTANTS: c_first_tab TYPE slis_tabname VALUE 'ITAB1',
           c_field_qty TYPE    slis_fieldcat_alv-fieldname     VALUE 'KWMENG',
           c_colpos_unit TYPE    slis_fieldcat_alv-col_pos       VALUE 6,
           c_field_unit  TYPE    slis_fieldcat_alv-fieldname     VALUE 'MEINS',
-          c_field_unit_new  TYPE    slis_fieldcat_alv-fieldname     VALUE 'MEINS'.
+          c_field_unit_new  TYPE    slis_fieldcat_alv-fieldname     VALUE 'MEINS',
+          c_field_unit_new_1  TYPE    slis_fieldcat_alv-fieldname     VALUE 'MEINS'.
 
 
 * Data declarations.
