@@ -97,9 +97,9 @@ START-OF-SELECTION.
   SELECT vbeln matnr netpr waerk kwmeng meins UP TO 10 ROWS
          INTO TABLE t_vbap
          FROM vbap WHERE vbeln > c_order_low.     "'0060000100'.
-  IF sy-subrc = 0.
-    SORT t_vbap BY vbeln matnr.
-  ENDIF.
+*  IF sy-subrc = 0.
+*    SORT t_vbap BY vbeln matnr.
+*  ENDIF.
 * init
   CALL FUNCTION 'REUSE_ALV_BLOCK_LIST_INIT'
     EXPORTING
